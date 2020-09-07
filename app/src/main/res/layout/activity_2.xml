@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flower_template"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/click"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="cursive"
+        android:text="@string/textview"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="cursive"
+        android:text="@string/text3"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="cursive"
+        android:gravity="end"
+        android:text="@string/t4"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="18sp" />
+</LinearLayout>
